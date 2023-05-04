@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.body{
+    background-color: rgb(61, 49, 49);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+header{
+    min-height: 92.6vh;
+}
+div.header{
+    width: 100%;
+    margin: auto;
+}
+nav{
+    height: 85px;
+    background-color: black;
+    border-radius: 50px;
+}
+nav h1{
+    float: left;
+    line-height: 85px;
+    font-size: 35px;
+    font-size: inline;
+    color: white;
+    margin-left: 10%;
+}
+nav ul{
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 10%;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 5px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 7px 8px;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: #e8e4c9;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+div.content{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    transform: translateY(25vh);
+}
+div.content h2{
+    font-size: 60px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+div.content p{
+    font-weight: 400;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50px;
+    line-height: 40px;
+}
+div.content .button{
+    background-color: #e8e4c9;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s ease-in-out;
+}
+div.content .button:hover{
+    color: white;
+    background-color: burlywood;
+}
+img{
+    align-self: flex-end;
+    object-fit: cover;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+div.footer{
+    background-color:rgb(29, 28, 28);
+    padding: 30px 0px;
+}
+div.container{
+    width: 90%;
+    margin: auto;
+}
+div.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.column{
+    width: 25%;
+    padding: 0px 15px;
+}
+div.column h3{
+    font-size: 18px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    position: relative;
+}
+div.column p{
+    font-weight: 100;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+div.column ul{
+    list-style: none;
+}
+div.column ul a{
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+div.column ul a:hover{
+    color: #5d5104;
+    transition: 0.5s ease-in-out;
+}
+div.copyright{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div{
+    text-align: justify;
+    text-justify: inter-word;
+}
+span{
+    color: gold;
+}
+section {
+    height: 50vh;
+    border: 1px solid black;
+    display: flex;
+}
+section.aboutme{
+    width: 100%;
+    padding: 78px;
+    background-color: rgb(61, 49, 49);
+    top: 50%;
+    bottom: 50%;
+    gap: 20px;
+}
+div.content1{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+div.content1 h2{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 5px;
+}
+div.content1 p{
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+div.content1 ul{
+    font-size: 25px;
+    list-style: none;
+    color: white;
+}
+div.content1 li{
+    font-weight: 200;
+}
+.socmeds{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.socmeds li{
+    margin: 2px;
+}
+.socmeds a{
+    text-decoration: none;
+    color: white;
+}
+.socmeds a i{
+    font-size: 1.5rem;
+}
+.socmeds a:hover i{
+    color: #7d6d03;
+    transition: .5s ease-in-out;
+}
+.GFG{
+    align-self: flex-end;
+    object-fit: cover;
+    float: left;
+    max-width: 100%;
+    height: auto;
+}
+.GFG:hover{
+    color: #111; 
+    background: rgb(156, 149, 149); 
+    box-shadow: 0 0 550px white; 
+}
